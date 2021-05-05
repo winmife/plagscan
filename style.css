@@ -30,7 +30,7 @@ nav {
 
 .nav-menu > li {
   padding: 0 10px;
-  padding-left: 23px;
+  padding-left: 24px;
 }
 
 .header-logo {
@@ -41,3 +41,16 @@ nav {
 .right {
   margin-left: 230px;
 }
+
+.hero-section {
+  grid: 2;
+  background-color: rgb(243, 245, 247);
+  padding-top: 100px;
+  padding-left: 80px;
+  
+  
+
+  
+}
+
+
