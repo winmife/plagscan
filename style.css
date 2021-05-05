@@ -17,11 +17,25 @@ body {
 
 nav {
   display: flex;
+  align-items: center;
 }
 
-nav ul {
+.nav-menu {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  
+  width: 940px;
+}
+
+.nav-menu > li {
+  padding: 0 10px;
+}
+
+.header-logo {
+  width: 200px;
+  margin-left: 190px;
+}
+
+.right {
+  margin-left: auto;
 }
