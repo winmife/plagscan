@@ -8,7 +8,7 @@
 .vorlage {
   position: absolute;
   z-index: -1;
-  opacity: 0.4;
+  opacity: 0;
 }
 
 body {
@@ -19,6 +19,7 @@ body {
 nav {
   display: flex;
   align-items: center;
+  
 }
 
 .nav-menu {
@@ -26,16 +27,29 @@ nav {
   justify-content: space-between;
   list-style: none;
   width: 940px;
+ 
 }
 
 .nav-menu > li {
   padding: 0 10px;
   padding-left: 24px;
+  cursor: pointer;
+  
 }
+
+/* ul > li:first-of-type:hover {
+  background-color: #f3ebde;
+}
+
+.ul > li:first-of-type:active {
+  background-color: #f3ebde;
+  transform: translateY(4px);
+} */
 
 .header-logo {
   width: 200px;
   margin-left: 190px;
+  cursor: pointer;
 }
 
 .right {
@@ -46,12 +60,12 @@ nav {
   grid: 2;
   background-color: rgb(243, 245, 247);
   padding-top: 100px;
-  padding-left: 130px;
+  padding-left: 200px;
 }
 
 .hero-text {
-  font-size: 34px;
-  color: rgb(128, 120, 120);
+  font-size: 32px;
+  color: rgba(64, 92, 119, 0.75);
 }
 
 .hero-text > strong {
@@ -60,10 +74,82 @@ nav {
 
 .button1 {
   margin-top: 40px;
-  font-size: 25px;
+  font-size: 22px;
   color: rgb(239, 146, 0);
   background-color: Transparent;
   border: none;
   cursor: pointer;
   overflow: hidden;
+  transition: all 0.2s;
+}
+
+.button1:hover {
+  background-color: #f3ebde;
+}
+
+.button1:active {
+  background-color: #f3ebde;
+  transform: translateY(4px);
+}
+
+.plagiatbericht {
+
+color: rgb(64, 92, 119);
+border: none;
+cursor: pointer;
+overflow: hidden;
+background-color: transparent;
+font-size: 18px;
+margin-top: 60px;
+padding-left: 200px;
+}
+
+.second-text1 {
+
+font-size: 16px; 
+padding-left: 200px;
+padding-top: 14px;
+
+} 
+
+.datenschutz {
+
+color: rgb(64, 92, 119);
+border: none;
+cursor: pointer;
+overflow: hidden;
+background-color: transparent;
+font-size: 18px;
+padding-top: 125px;
+padding-left: 585px;
+}
+
+.second-text2 {
+
+font-size: 16px; 
+padding-left: 585px;
+padding-top: 14px;
+
+}
+
+.third-section {
+
+grid: 3;
+background: rgb(250,240,230);
+padding-top: 380px;
+margin-top: 115px;
+}
+
+.Kurzanleitung {
+
+color: rgb(64, 92, 119);
+border: none;
+cursor: pointer;
+overflow: hidden;
+background-color: transparent;
+font-size: 30px;
+padding-left: 650px;
+padding-top: 57px; 
+
+
 }
