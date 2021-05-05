@@ -50,10 +50,20 @@ nav {
 }
 
 .hero-text {
-  font-size: 32px;
-  color: red;
+  font-size: 34px;
+  color: rgb(128, 120, 120);
 }
 
 .hero-text > strong {
   color: rgb(64, 92, 119);
+}
+
+.button1 {
+  margin-top: 40px;
+  font-size: 25px;
+  color: rgb(239, 146, 0);
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
 }
