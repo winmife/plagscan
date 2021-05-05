@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.vorlage {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 50px 380px 440px 380px 490px 430px 120px;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  
+}
