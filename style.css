@@ -19,7 +19,6 @@ body {
 nav {
   display: flex;
   align-items: center;
-  
 }
 
 .nav-menu {
@@ -27,24 +26,13 @@ nav {
   justify-content: space-between;
   list-style: none;
   width: 940px;
- 
 }
 
 .nav-menu > li {
   padding: 0 10px;
   padding-left: 24px;
   cursor: pointer;
-  
 }
-
-/* ul > li:first-of-type:hover {
-  background-color: #f3ebde;
-}
-
-.ul > li:first-of-type:active {
-  background-color: #f3ebde;
-  transform: translateY(4px);
-} */
 
 .header-logo {
   width: 200px;
@@ -53,7 +41,7 @@ nav {
 }
 
 .right {
-  margin-left: 230px;
+  margin-left: 200px;
 }
 
 .hero-section {
@@ -93,63 +81,83 @@ nav {
 }
 
 .plagiatbericht {
-
-color: rgb(64, 92, 119);
-border: none;
-cursor: pointer;
-overflow: hidden;
-background-color: transparent;
-font-size: 18px;
-margin-top: 60px;
-padding-left: 200px;
+  color: rgb(64, 92, 119);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: transparent;
+  font-size: 18px;
+  margin-top: 60px;
+  padding-left: 200px;
 }
 
 .second-text1 {
-
-font-size: 16px; 
-padding-left: 200px;
-padding-top: 14px;
-
-} 
+  font-size: 16px;
+  padding-left: 200px;
+  padding-top: 14px;
+}
 
 .datenschutz {
-
-color: rgb(64, 92, 119);
-border: none;
-cursor: pointer;
-overflow: hidden;
-background-color: transparent;
-font-size: 18px;
-padding-top: 125px;
-padding-left: 585px;
+  color: rgb(64, 92, 119);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: transparent;
+  font-size: 18px;
+  padding-top: 125px;
+  padding-left: 585px;
 }
 
 .second-text2 {
-
-font-size: 16px; 
-padding-left: 585px;
-padding-top: 14px;
-
+  font-size: 16px;
+  padding-left: 585px;
+  padding-top: 14px;
 }
 
 .third-section {
-
-grid: 3;
-background: rgb(250,240,230);
-padding-top: 380px;
-margin-top: 115px;
+  grid: 4;
+  background: rgb(250, 240, 230);
+  padding-top: 380px;
+  margin-top: 115px;
 }
 
 .Kurzanleitung {
+  color: rgb(64, 92, 119);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: transparent;
+  font-size: 30px;
+  padding-left: 650px;
+  padding-top: 0px;
+}
 
-color: rgb(64, 92, 119);
-border: none;
-cursor: pointer;
-overflow: hidden;
-background-color: transparent;
-font-size: 30px;
-padding-left: 650px;
-padding-top: 57px; 
+.third-text {
+  padding-left: 660px;
+}
 
+.nav-menu > li {
+  color: rgb(0, 0, 0);
 
+  text-decoration: none;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+li:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(128, 123, 123);
+
+  width: 0;
+}
+li:hover:after {
+  width: 100%;
+  left: 0;
 }
