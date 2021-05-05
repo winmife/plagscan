@@ -47,10 +47,13 @@ nav {
   background-color: rgb(243, 245, 247);
   padding-top: 100px;
   padding-left: 80px;
-  
-  
-
-  
 }
 
+.hero-text {
+  font-size: 32px;
+  color: red;
+}
 
+.hero-text > strong {
+  color: rgb(64, 92, 119);
+}
