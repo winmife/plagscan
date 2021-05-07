@@ -26,12 +26,14 @@ nav {
   justify-content: space-between;
   list-style: none;
   width: 940px;
+  
 }
 
 .nav-menu > li {
   padding: 0 10px;
   padding-left: 24px;
   cursor: pointer;
+  
 }
 
 .nav-menu > li {
@@ -143,13 +145,13 @@ li:hover:after {
 
 .second-text2 {
   font-size: 16px;
-  padding-top: 17px;
+  padding-top: 8px;
   padding-left: 585px;
   color: #333;
 }
 
 .tresor {
-  margin-top: -87px;
+  margin-top: -78px;
   margin-left: 305px;
 }
 
@@ -157,7 +159,7 @@ li:hover:after {
   grid: 4;
   background: rgb(250, 240, 230);
   padding-top: 380px;
-  margin-top: 115px;
+  margin-top: 40px;
 }
 
 .Kurzanleitung {
@@ -173,4 +175,12 @@ li:hover:after {
 
 .third-text {
   padding-left: 660px;
+}
+
+
+.info {
+
+vertical-align: middle;
+width: 50%;
+
 }
