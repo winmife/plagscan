@@ -34,6 +34,33 @@ nav {
   cursor: pointer;
 }
 
+.nav-menu > li {
+  color: rgb(0, 0, 0);
+
+  text-decoration: none;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+li:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(128, 123, 123);
+
+  width: 0;
+}
+li:hover:after {
+  width: 100%;
+  left: 0;
+}
+
 .header-logo {
   width: 200px;
   margin-left: 190px;
@@ -88,13 +115,19 @@ nav {
   background-color: transparent;
   font-size: 18px;
   margin-top: 60px;
-  padding-left: 200px;
+  padding-left: 205px;
 }
 
 .second-text1 {
   font-size: 16px;
-  padding-left: 200px;
+  padding-left: 205px;
   padding-top: 14px;
+  color: #333;
+}
+
+.scan {
+  margin-left: 858px;
+  margin-top: -80px;
 }
 
 .datenschutz {
@@ -104,14 +137,20 @@ nav {
   overflow: hidden;
   background-color: transparent;
   font-size: 18px;
-  padding-top: 125px;
+  margin-top: 50px;
   padding-left: 585px;
 }
 
 .second-text2 {
   font-size: 16px;
+  padding-top: 17px;
   padding-left: 585px;
-  padding-top: 14px;
+  color: #333;
+}
+
+.tresor {
+  margin-top: -87px;
+  margin-left: 305px;
 }
 
 .third-section {
@@ -134,30 +173,4 @@ nav {
 
 .third-text {
   padding-left: 660px;
-}
-
-.nav-menu > li {
-  color: rgb(0, 0, 0);
-
-  text-decoration: none;
-
-  display: inline-block;
-  padding: 15px 20px;
-  position: relative;
-}
-li:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: rgb(128, 123, 123);
-
-  width: 0;
-}
-li:hover:after {
-  width: 100%;
-  left: 0;
 }
