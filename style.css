@@ -5,37 +5,38 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Lädt die Vorlage in den Hintergrund */
 .vorlage {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
+/* "Erzeugt" ein Grid, dieses wird dann in verschieden große rows aufgeteilt */
 body {
   display: grid;
   grid-template-rows: 50px 380px 440px 380px 490px 430px 120px;
 }
-
+/* Ein Flexbox wird erzeugt und die "Items" werden gecentered */
 nav {
   display: flex;
   align-items: center;
 }
-
+/* Flexbox-Erzeugun & Breite wird festgelegt */
 .nav-menu {
   display: flex;
   justify-content: space-between;
   list-style: none;
   width: 940px;
-  
 }
 
+/* Padding wird definiert + wenn man mit Maus darüber fährt, dass es ein Pointer wird */
 .nav-menu > li {
   padding: 0 10px;
   padding-left: 24px;
   cursor: pointer;
-  
 }
-
+/* Diverse Einstellungen für das Underline Hover */
 .nav-menu > li {
   color: rgb(0, 0, 0);
 
@@ -46,6 +47,7 @@ nav {
   position: relative;
 }
 
+/* Diverse Einstellungen für das Underline Hover */
 li:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -58,21 +60,26 @@ li:after {
 
   width: 0;
 }
+
+/* Diverse Einstellungen für das Underline Hover */
 li:hover:after {
   width: 100%;
   left: 0;
 }
 
+/* Positionierung Header Logo + Umwandlung von cursor in einen Pointer */
 .header-logo {
   width: 200px;
   margin-left: 190px;
   cursor: pointer;
 }
 
+/* Login und Regestrieren Menü-Punkte werden weiter nach rechts positioniert. */
 .right {
   margin-left: 200px;
 }
 
+/* Richtiges Grid wird zugewiesen, Hintergrundfarbe geändert und positioniert */
 .hero-section {
   grid: 2;
   background-color: rgb(243, 245, 247);
@@ -80,15 +87,18 @@ li:hover:after {
   padding-left: 200px;
 }
 
+/* Richtige Schriftgröße und Farbe wird eingestellt */
 .hero-text {
   font-size: 32px;
   color: rgba(64, 92, 119, 0.75);
 }
 
+/* Alles im .hero-text mit den strong tag wird der gegeben Farbe zugewiesen */
 .hero-text > strong {
   color: rgb(64, 92, 119);
 }
 
+/* Positionierung, transparenter Hintergrund, Rahmen wird weggemacht etc. */
 .button1 {
   margin-top: 40px;
   font-size: 22px;
@@ -100,15 +110,18 @@ li:hover:after {
   transition: all 0.2s;
 }
 
+/* Animation */
 .button1:hover {
   background-color: #f3ebde;
 }
 
+/* Animation */
 .button1:active {
   background-color: #f3ebde;
   transform: translateY(4px);
 }
 
+/* Positionierung, transparenter Hintergrund, Rahmen wird weggemacht etc. */
 .plagiatbericht {
   color: rgb(64, 92, 119);
   border: none;
@@ -120,6 +133,7 @@ li:hover:after {
   padding-left: 205px;
 }
 
+/* Schriftgröße, Positionierung & Farbe */
 .second-text1 {
   font-size: 16px;
   padding-left: 205px;
@@ -127,11 +141,13 @@ li:hover:after {
   color: #333;
 }
 
+/* Positionierung */
 .scan {
   margin-left: 858px;
   margin-top: -80px;
 }
 
+/* Positionierung, transparenter Hintergrund, Rahmen wird weggemacht etc. */
 .datenschutz {
   color: rgb(64, 92, 119);
   border: none;
@@ -143,6 +159,7 @@ li:hover:after {
   padding-left: 585px;
 }
 
+/* Schriftgröße, Positionierung & Farbe */
 .second-text2 {
   font-size: 16px;
   padding-top: 8px;
@@ -150,18 +167,20 @@ li:hover:after {
   color: #333;
 }
 
+/* Positionierung */
 .tresor {
   margin-top: -78px;
   margin-left: 305px;
 }
 
+/* Grid-Zuweisung, Positionierung + Hintergrundfarbe */
 .third-section {
-  grid: 4;
   background: rgb(250, 240, 230);
-  padding-top: 380px;
+
   margin-top: 40px;
 }
 
+/* Positionierung, transparenter Hintergrund, Rahmen wird weggemacht etc. */
 .Kurzanleitung {
   color: rgb(64, 92, 119);
   border: none;
@@ -170,17 +189,16 @@ li:hover:after {
   background-color: transparent;
   font-size: 30px;
   padding-left: 650px;
-  padding-top: 0px;
+  margin-top: 60px;
 }
-
+/* Positionierung */
 .third-text {
   padding-left: 660px;
+  padding-top: 5px;
 }
 
-
+/* Positionierung */
 .info {
-
-vertical-align: middle;
-width: 50%;
-
+  padding-top: 44px;
+  padding-left: 460px;
 }
